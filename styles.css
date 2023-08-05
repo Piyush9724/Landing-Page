@@ -73,7 +73,7 @@
 
 .top1 > button {
     top:50%;
-    background-color: rgba(4, 176, 255, 0.626);
+    background-color: rgba(56, 130, 246, 0.626);
     color: #fff;
     border:none; 
     border-radius:10px; 
@@ -131,7 +131,65 @@
 .fact > img {
     height: 150px;
     width: 150px;
-    border-radius: 10px;
-    border: 2px solid rgb(68, 147, 227);
+    border-radius: 15px;
+    border: 2px solid #3882F6;
     padding: 0.5rem;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Noto Serif';
+    font-weight: 200;
+    width: 60%;
+    text-align: justify;
+}
+
+#quote-by {
+    margin-left: 50%;
+}
+
+.subs-container {
+    margin: 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+    width: 70%;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+
+.subMsg > p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.subButton {
+    background-color: rgba(56, 130, 246, 0.626);
+    color: #fff;
+    border: 1px solid #fff; 
+    border-radius:10px; 
+    padding:6px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Footer Container */
+
+.footer-container {
+    display: flex;
+   justify-content: center;
 }
