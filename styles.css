@@ -151,10 +151,12 @@
     font-weight: 200;
     width: 60%;
     text-align: justify;
+    margin-top: 5rem;
 }
 
 #quote-by {
     margin-left: 50%;
+    margin-bottom: 5rem;
 }
 
 .subs-container {
