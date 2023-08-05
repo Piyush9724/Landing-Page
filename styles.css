@@ -190,6 +190,14 @@
 /* Footer Container */
 
 .footer-container {
-    display: flex;
+   display: flex;
    justify-content: center;
+   align-items: center;
+   background-color: #1F2937;
+   height: 4rem;
+}
+
+.footer-container > h4 {
+    color:#E5E7EB;
+    font-weight: 200;
 }
